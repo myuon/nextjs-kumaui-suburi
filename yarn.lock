@@ -1073,7 +1073,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.8.1.tgz#c1ddb040429c6d21d38cc945fe75c818cfb68e17"
   integrity sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA==
 
-"@emotion/react@^11.9.0":
+"@emotion/react@^11.11.1":
   version "11.11.1"
   resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.11.1.tgz#b2c36afac95b184f73b08da8c214fdf861fa4157"
   integrity sha512-5mlW1DquU5HaxjLkfkGN1GA/fvVGdyHURRiX/0FHl2cfIfRxSOfmxEH5YS43edp0OldZrZ+dkBKbngxcNCdZvA==
@@ -1103,7 +1103,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.2.2.tgz#d58e788ee27267a14342303e1abb3d508b6d0fec"
   integrity sha512-0QBtGvaqtWi+nx6doRwDdBIzhNdZrXUppvTM4dtZZWEGTXL/XE/yJxLMGlDT1Gt+UHH5IX1n+jkXyytE/av7OA==
 
-"@emotion/styled@^11.8.1":
+"@emotion/styled@^11.11.0":
   version "11.11.0"
   resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-11.11.0.tgz#26b75e1b5a1b7a629d7c0a8b708fbf5a9cdce346"
   integrity sha512-hM5Nnvu9P3midq5aaXj4I+lnSfNi7Pmd4EWk1fOZ3pxookaQTNew6bp4JaCBYM4HVFZF9g7UjJmsUmC2JlxOng==
@@ -1500,12 +1500,12 @@
     react-is "^18.2.0"
 
 "@myuon/mu-ui@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@myuon/mu-ui/-/mu-ui-0.3.1.tgz#db7bd016acbb0d06a874b1e0065ebac7a69eb43a"
-  integrity sha512-HQD/ttugJYjEZphuvYwOyp3aIDfCIPmp7shdtK8jd4fA65aTQRf5oBdEnvYWJiQkYKgQo8edduPeNPoWoLbUBQ==
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@myuon/mu-ui/-/mu-ui-0.3.3.tgz#7fda0024cc6dd4cde26f7947bc7302b5521626b6"
+  integrity sha512-7QvIthF0axLDGewTb3dVDSHYZgFd4vbfxDRv4R17Cv8D/bBcZRxkc30DZyTLy6ZsYGsPWIEMOY5GKC5G/BoDRA==
   dependencies:
-    "@emotion/react" "^11.9.0"
-    "@emotion/styled" "^11.8.1"
+    "@emotion/react" "^11.11.1"
+    "@emotion/styled" "^11.11.0"
     "@mui/icons-material" "^5.6.2"
     "@mui/material" "^5.7.0"
     "@types/color" "^3.0.3"
