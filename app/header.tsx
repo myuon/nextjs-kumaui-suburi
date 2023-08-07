@@ -2,6 +2,7 @@
 
 import { css } from "@kuma-ui/core";
 import { useState } from "react";
+import { Button } from "@myuon/mu-ui";
 
 export const Header = () => {
   const [flag, setFlag] = useState(false);
@@ -12,22 +13,21 @@ export const Header = () => {
         flag
           ? css`
               background-color: blue;
-              color: white;
             `
           : css`
               background-color: red;
-              color: white;
             `
       }
     >
       THIS IS HEADER,{" "}
-      <button
+      <Button
+        color="primary"
         onClick={() => {
           setFlag((prev) => !prev);
         }}
       >
         {flag ? "yes" : "no"}
-      </button>
+      </Button>
     </div>
   );
 };

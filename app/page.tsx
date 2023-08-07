@@ -1,10 +1,14 @@
+"use client";
+
 import Image from "next/image";
 import styles from "./page.module.css";
 import { Header } from "./header";
+import { MuUiStyles } from "@myuon/mu-ui";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <MuUiStyles></MuUiStyles>
       <Header />
 
       <div className={styles.description}>
